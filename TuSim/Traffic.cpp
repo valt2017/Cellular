@@ -23,6 +23,7 @@ int TrafficGo;        // [min]
 Vehicle road[CNT_CELLS][NUM_LANES];
 char speedMax[CNT_CELLS][NUM_LANES];
 
+// std random, uniform distribution, ...
 double rand01(void)
 {
   return((double)rand()/(double)RAND_MAX);
